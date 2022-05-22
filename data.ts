@@ -16,7 +16,7 @@ interface Data {
 
 export const data: Data = {
     report: [{
-        id: "Diego",
+        id: "uuid1",
         source: "Salary",
         amount: 3000,
         created_at: new Date(),
@@ -24,7 +24,7 @@ export const data: Data = {
         type: ReportType.INCOME 
     },
     {
-        id: "Diego2",
+        id: "uuid2",
         source: "Drawing",
         amount: 2000,
         created_at: new Date(),
@@ -32,7 +32,7 @@ export const data: Data = {
         type: ReportType.INCOME 
     },
     {
-        id: "Diego3",
+        id: "uuid3",
         source: "Survival KIT",
         amount: 1000,
         created_at: new Date(),
